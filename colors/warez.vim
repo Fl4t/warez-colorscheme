@@ -1,9 +1,9 @@
 " Name:     Warez vim colorscheme
 " Author:   Stechele Julien <julien.stechele@gmail.com>
-" URL:
+" URL:      https://github.com/Fl4t/warez-colorscheme
 " Created:  In the middle of the night
 " Modified: 2011 Jun 01
-" Note:
+" Note:     Bwarrr!
 
 " Color
 "       normal           Bright
@@ -43,7 +43,7 @@ hi! Directory                    guifg=#5B8EBF   guibg=NONE      gui=NONE
 hi! DiffAdd                      guifg=#181818   guibg=#348686   gui=NONE
 hi! DiffChange                   guifg=#181818   guibg=#735B9C   gui=NONE
 hi! DiffDelete                   guifg=#181818   guibg=#9E5A77   gui=NONE
-hi! DiffText                     guifg=#181818   guibg=#4a6985   gui=NONE
+hi! DiffText                     guifg=#181818   guibg=#42799D   gui=NONE
 hi! ErrorMsg                     guifg=#9E5A77   guibg=#AFAFD4   gui=NONE
 hi! VertSplit                    guifg=NONE      guibg=#424242   gui=NONE
 hi! Folded                       guifg=#42424B   guibg=#42799D   gui=NONE
@@ -58,18 +58,18 @@ hi! Question                     guifg=#CBCBCB   guibg=NONE      gui=NONE
 hi! Search                       guifg=NONE      guibg=#60B5B5   gui=NONE
 hi! SpecialKey                   guifg=#AFAFD4   guibg=NONE      gui=NONE
 hi! StatusLine                   guifg=NONE      guibg=#424242   gui=NONE
-hi! StatusLineNC                 guifg=#505050   guibg=#424242   gui=NONE
+hi! StatusLineNC                 guifg=#181818   guibg=#424242   gui=NONE
 hi! Title                        guifg=#9378BE   guibg=NONE      gui=NONE
-hi! Visual                       guifg=NONE      guibg=#CBCBCB   gui=NONE
-hi! VisualNOS                    guifg=NONE      guibg=#CBCBCB   gui=NONE
-hi! WarningMsg                   guifg=NONE      guibg=#CBCBCB   gui=NONE
-hi! WildMenu                     guifg=NONE      guibg=#CBCBCB   gui=NONE
+hi! Visual                       guifg=NONE      guibg=#4E4E4E   gui=NONE
+hi! VisualNOS                    guifg=NONE      guibg=#4E4E4E   gui=NONE
+hi! WarningMsg                   guifg=NONE      guibg=#4E4E4E   gui=NONE
+hi! WildMenu                     guifg=NONE      guibg=#4E4E4E   gui=NONE
 
 " Syntax highlighting
 " ----------------------------------------------------------------------
 hi! Comment                      guifg=#9BACB0   guibg=NONE      gui=NONE
 
-hi! Constant                     guifg=#348686   guibg=NONE      gui=NONE
+hi! Constant                     guifg=#32867F   guibg=NONE      gui=NONE
 hi! String                       guifg=#32867F   guibg=NONE      gui=NONE
 hi! Character                    guifg=#32867F   guibg=NONE      gui=NONE
 hi! Number                       guifg=#32867F   guibg=NONE      gui=NONE
@@ -112,63 +112,14 @@ hi! Todo                         guifg=#AFAFD4   guibg=NONE      gui=NONE
 
 " PHP Colours
 " ----------------------------------------------------------------------
-"hi! phpParent                    guifg=#65B5B5   guibg=NONE      gui=NONE
-hi! phpVarSelector               guifg=#348686   guibg=NONE      gui=NONE
-hi! phpIdentifier                guifg=#348686   guibg=NONE      gui=NONE
-hi! phpMethodsVar                guifg=#74A7CA   guibg=NONE      gui=NONE
-hi! phpMethods                   guifg=#74A7CA   guibg=NONE      gui=NONE
+hi! link phpVarSelector Constant
+hi! link phpIdentifier Constant
+hi! link phpMethodsVar Structure
+hi! link phpMethods Structure
 
-"hi! link Function phpRegion
-"hi link Delimiter phpParent
-"hi! link Delimiter phpMagicConstants
-"hi phpStringSingle               guifg=#328682   guibg=NONE      gui=NONE
-"hi! phpDefine                    guifg=#c3a2cc   guibg=NONE      gui=NONE
-"hi! phpType                      guifg=#ba9ac2   guibg=NONE      gui=NONE
-"hi! phpSpecialFunction           guifg=#ba9ac2   guibg=NONE      gui=NONE
-"hi! phpComparison                guifg=#afb0ae   guibg=NONE      gui=NONE
-"hi! phpMemberSelector            guifg=#afb0ae   guibg=NONE      gui=NONE
-"hi! phpRegion                    guifg=#407998   guibg=NONE      gui=NONE
-"hi link Type phpType
-"hi! phpStorageClass              guifg=#ba9ac2   guibg=NONE      gui=NONE
-"hi! phpInclude                   guifg=#65B5B5   guibg=NONE      gui=NONE
-"hi link Include phpInclude
-"hi! phpFunctions                 guifg=#8E78B8   guibg=NONE      gui=NONE
-"hi link Function phpFunctions
-"hi! phpStatement                 guifg=#486981   guibg=NONE      gui=NONE
-"hi! phpFoldFunction              guifg=#8E78B8   guibg=NONE      gui=NONE
-"hi phpFoldClass                  guifg=#8E78B8   guibg=NONE      gui=NONE
-"hi! phpOperator                  guifg=#8F8F9E   guibg=NONE      gui=NONE
-"hi! phpType                      guifg=#407998   guibg=NONE      gui=NONE
-"hi! phpComment                   guifg=#9BACB0   guibg=NONE      gui=NONE
-"hi! phpFCKeyboard                guifg=#62B5AF   guibg=NONE      gui=NONE
-"
-"" HTML Colours
-"" ----------------------------------------------------------------------
-"hi htmlTag                      guifg=#8E78B8   guibg=NONE      gui=NONE
-"hi htmlEndTag                   guifg=#8E78B8   guibg=NONE      gui=NONE
-"hi htmlArg                      guifg=#94FCBF   guibg=NONE      gui=NONE
-"hi htmlTagName                  guifg=#AFAFD4   guibg=NONE      gui=NONE
-"hi htmlTagN                     guifg=#AFAFD4   guibg=NONE      gui=NONE
-"hi htmlScriptTag                guifg=#c3a2cc   guibg=NONE      gui=NONE
-"hi htmlTitle                    guifg=#afb0ae   guibg=NONE      gui=NONE
-"hi htmlLink                     guifg=#72DEFD   guibg=NONE      gui=NONE
-"
-"" VIM Colours
-"" ----------------------------------------------------------------------
-"hi link vimHighlight Statement
-"hi link vimLineComment Comment
-"hi link vimCommentTitle Title
-"hi link vimGroup Identifier
-"hi link vimHiGroup Identifier
-hi link vimCommand Statement
-hi link vimIsCommand Identifier
-hi link vimVar Identifier
-hi link vimOper Identifier
-"
-""" CSS Colours
-""" ----------------------------------------------------------------------
-"hi cssTagName                   guifg=#82a3bf   guibg=NONE      gui=NONE
-"hi cssClassName                 guifg=#d3b96b   guibg=NONE      gui=NONE
-
-
-
+" VIM Colours
+" ----------------------------------------------------------------------
+hi! link vimCommand Statement
+hi! link vimIsCommand Identifier
+hi! link vimVar PreProc
+hi! link vimOper Identifier
