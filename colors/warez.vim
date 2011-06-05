@@ -40,10 +40,10 @@ endif
 hi! Cursor                       guifg=NONE      guibg=#afafd4   gui=NONE
 hi! CursorIM                     guifg=NONE      guibg=#afafd4   gui=NONE
 hi! Directory                    guifg=#5B8EBF   guibg=NONE      gui=NONE
-hi! DiffAdd                      guifg=NONE      guibg=#407998   gui=NONE
-hi! DiffChange                   guifg=NONE      guibg=#9378BE   gui=NONE
-hi! DiffDelete                   guifg=NONE      guibg=#CC6291   gui=NONE
-hi! DiffText                     guifg=NONE      guibg=#AFAFD4   gui=NONE
+hi! DiffAdd                      guifg=#181818   guibg=#348686   gui=NONE
+hi! DiffChange                   guifg=#181818   guibg=#735B9C   gui=NONE
+hi! DiffDelete                   guifg=#181818   guibg=#9E5A77   gui=NONE
+hi! DiffText                     guifg=#181818   guibg=#4a6985   gui=NONE
 hi! ErrorMsg                     guifg=#9E5A77   guibg=#AFAFD4   gui=NONE
 hi! VertSplit                    guifg=NONE      guibg=#424242   gui=NONE
 hi! Folded                       guifg=#42424B   guibg=#42799D   gui=NONE
@@ -169,3 +169,6 @@ hi link vimOper Identifier
 """ ----------------------------------------------------------------------
 "hi cssTagName                   guifg=#82a3bf   guibg=NONE      gui=NONE
 "hi cssClassName                 guifg=#d3b96b   guibg=NONE      gui=NONE
+
+
+
