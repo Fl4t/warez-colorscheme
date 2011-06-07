@@ -63,7 +63,7 @@ hi! Title                        guifg=#9378BE   guibg=NONE      gui=NONE
 hi! Visual                       guifg=NONE      guibg=#4E4E4E   gui=NONE
 hi! VisualNOS                    guifg=NONE      guibg=#4E4E4E   gui=NONE
 hi! WarningMsg                   guifg=NONE      guibg=#4E4E4E   gui=NONE
-hi! WildMenu                     guifg=NONE      guibg=#4E4E4E   gui=NONE
+hi! WildMenu                     guifg=NONE      guibg=#32867F   gui=NONE
 
 " Syntax highlighting
 " ----------------------------------------------------------------------
@@ -108,7 +108,7 @@ hi! Debug                        guifg=#AFAFD4   guibg=NONE      gui=NONE
 hi! Underlined                   guifg=#486981   guibg=NONE      gui=NONE
 hi! Ignore                       guifg=#4C4E4C   guibg=NONE      gui=NONE
 hi! Error                        guifg=#4C4E4C   guibg=NONE      gui=NONE
-hi! Todo                         guifg=#AFAFD4   guibg=NONE      gui=NONE
+hi! Todo                         guifg=#9E5A77   guibg=NONE      gui=NONE
 
 " PHP Colours
 " ----------------------------------------------------------------------
@@ -123,3 +123,4 @@ hi! link vimCommand Statement
 hi! link vimIsCommand Identifier
 hi! link vimVar PreProc
 hi! link vimOper Identifier
+hi! link vimHiGroup Type
