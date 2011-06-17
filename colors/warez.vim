@@ -67,7 +67,7 @@ hi! WildMenu                     guifg=NONE      guibg=#32867F   gui=NONE
 
 " Syntax highlighting
 " ----------------------------------------------------------------------
-hi! Comment                      guifg=#9BACB0   guibg=NONE      gui=NONE
+hi! Comment                      guifg=#4E4E4E  guibg=NONE      gui=NONE
 
 hi! Constant                     guifg=#32867F   guibg=NONE      gui=NONE
 hi! String                       guifg=#32867F   guibg=NONE      gui=NONE
