@@ -57,7 +57,7 @@ hi! Normal                       guifg=#CBCBCB   guibg=#181818   gui=NONE
 hi! Question                     guifg=#CBCBCB   guibg=NONE      gui=NONE
 hi! Search                       guifg=#181818   guibg=#60B5B5   gui=NONE
 hi! SpecialKey                   guifg=#AFAFD4   guibg=NONE      gui=NONE
-hi! StatusLine                   guifg=NONE      guibg=#424242   gui=NONE
+hi! StatusLine                   guifg=#CBCBCB   guibg=#424242   gui=NONE
 hi! StatusLineNC                 guifg=#181818   guibg=#424242   gui=NONE
 hi! Title                        guifg=#9378BE   guibg=NONE      gui=NONE
 hi! Visual                       guifg=NONE      guibg=#4E4E4E   gui=NONE
