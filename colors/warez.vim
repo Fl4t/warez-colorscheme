@@ -124,3 +124,7 @@ hi! link vimIsCommand Identifier
 hi! link vimVar PreProc
 hi! link vimOper Identifier
 hi! link vimHiGroup Type
+
+" HTML Colours
+" ----------------------------------------------------------------------
+hi! link HtmltagName Statement
