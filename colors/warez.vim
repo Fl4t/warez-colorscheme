@@ -53,11 +53,11 @@ hi! LineNr                       guifg=#4C4E4C   guibg=NONE      gui=NONE
 hi! ModeMsg                      guifg=#8E78B8   guibg=NONE      gui=NONE
 hi! MoreMsg                      guifg=#8E78B8   guibg=NONE      gui=NONE
 hi! NonText                      guifg=#407998   guibg=NONE      gui=NONE
-hi! Normal                       guifg=#CBCBCB   guibg=#181818   gui=NONE
+hi! Normal                       guifg=#A5BBB5   guibg=#222222   gui=NONE
 hi! Question                     guifg=#CBCBCB   guibg=NONE      gui=NONE
 hi! Search                       guifg=#181818   guibg=#60B5B5   gui=NONE
 hi! SpecialKey                   guifg=#AFAFD4   guibg=NONE      gui=NONE
-hi! StatusLine                   guifg=#CBCBCB   guibg=#424242   gui=NONE
+hi! StatusLine                   guifg=#A5BBB5   guibg=#424242   gui=NONE
 hi! StatusLineNC                 guifg=#181818   guibg=#424242   gui=NONE
 hi! Title                        guifg=#9378BE   guibg=NONE      gui=NONE
 hi! Visual                       guifg=NONE      guibg=#4E4E4E   gui=NONE
@@ -76,7 +76,7 @@ hi! Number                       guifg=#32867F   guibg=NONE      gui=NONE
 hi! Boolean                      guifg=#32867F   guibg=NONE      gui=NONE
 hi! Float                        guifg=#32867F   guibg=NONE      gui=NONE
 
-hi! Identifier                   guifg=#AFAFD4   guibg=NONE      gui=NONE
+hi! Identifier                   guifg=#65B5B5   guibg=NONE      gui=NONE
 hi! Function                     guifg=#AFAFD4   guibg=NONE      gui=NONE
 
 hi! Statement                    guifg=#486981   guibg=NONE      gui=NONE
@@ -112,8 +112,8 @@ hi! Todo                         guifg=#9E5A77   guibg=NONE      gui=NONE
 
 " PHP Colours
 " ----------------------------------------------------------------------
-hi! link phpVarSelector Constant
-hi! link phpIdentifier Constant
+hi! link phpVarSelector identifier
+hi! link phpIdentifier identifier
 hi! link phpMethodsVar Structure
 hi! link phpMethods Structure
 
@@ -128,6 +128,9 @@ hi! link vimHiGroup Type
 " HTML Colours
 " ----------------------------------------------------------------------
 hi! link HtmltagName Statement
+hi! link HtmlString Constant
+hi! link HtmlTag Tag
+hi! link HtmlEndTag Tag
 
 " JAVASCRIPT Colours
 " ----------------------------------------------------------------------
