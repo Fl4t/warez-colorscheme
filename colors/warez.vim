@@ -128,3 +128,15 @@ hi! link vimHiGroup Type
 " HTML Colours
 " ----------------------------------------------------------------------
 hi! link HtmltagName Statement
+
+" JAVASCRIPT Colours
+" ----------------------------------------------------------------------
+hi! link javaScriptNumber Number
+hi! link javaScriptRegexpString String
+hi! link javaScriptGlobal Constant
+hi! link javaScriptOperator Operator
+hi! link javaScriptIdentifier Identifier
+hi! link javaScriptType Type
+hi! link javaScriptConditional Conditional
+hi! link javaScriptStatement Statement
+hi! link javaScriptRepeat Repeat
