@@ -48,14 +48,14 @@ hi! ErrorMsg                     guifg=#9E5A77   guibg=#AFAFD4   gui=NONE
 hi! VertSplit                    guifg=NONE      guibg=#424242   gui=NONE
 hi! Folded                       guifg=#42424B   guibg=#42799D   gui=NONE
 hi! FoldColumn                   guifg=#42424B   guibg=#42799D   gui=NONE
-hi! IncSearch                    guifg=NONE      guibg=#60B5B5   gui=NONE
+hi! IncSearch                    guifg=#222222   guibg=#9E5A77   gui=NONE
 hi! LineNr                       guifg=#4C4E4C   guibg=NONE      gui=NONE
 hi! ModeMsg                      guifg=#8E78B8   guibg=NONE      gui=NONE
 hi! MoreMsg                      guifg=#8E78B8   guibg=NONE      gui=NONE
 hi! NonText                      guifg=#407998   guibg=NONE      gui=NONE
 hi! Normal                       guifg=#A5BBB5   guibg=#222222   gui=NONE
 hi! Question                     guifg=#CBCBCB   guibg=NONE      gui=NONE
-hi! Search                       guifg=#181818   guibg=#60B5B5   gui=NONE
+hi! Search                       guifg=#222222   guibg=#9E5A77   gui=NONE
 hi! SpecialKey                   guifg=#AFAFD4   guibg=NONE      gui=NONE
 hi! StatusLine                   guifg=#A5BBB5   guibg=#424242   gui=NONE
 hi! StatusLineNC                 guifg=#181818   guibg=#424242   gui=NONE
