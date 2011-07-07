@@ -37,8 +37,8 @@ endif
 
 " General Group Colours
 " ----------------------------------------------------------------------
-hi! Cursor                       guifg=NONE      guibg=#afafd4   gui=NONE
-hi! CursorIM                     guifg=NONE      guibg=#afafd4   gui=NONE
+hi! Cursor                       guifg=#222222   guibg=#afafd4   gui=NONE
+hi! CursorIM                     guifg=#222222   guibg=#afafd4   gui=NONE
 hi! Directory                    guifg=#5B8EBF   guibg=NONE      gui=NONE
 hi! DiffAdd                      guifg=#181818   guibg=#348686   gui=NONE
 hi! DiffChange                   guifg=#181818   guibg=#735B9C   gui=NONE
@@ -60,10 +60,10 @@ hi! SpecialKey                   guifg=#AFAFD4   guibg=NONE      gui=NONE
 hi! StatusLine                   guifg=#A5BBB5   guibg=#424242   gui=NONE
 hi! StatusLineNC                 guifg=#181818   guibg=#424242   gui=NONE
 hi! Title                        guifg=#9378BE   guibg=NONE      gui=NONE
-hi! Visual                       guifg=NONE      guibg=#4E4E4E   gui=NONE
-hi! VisualNOS                    guifg=NONE      guibg=#4E4E4E   gui=NONE
-hi! WarningMsg                   guifg=NONE      guibg=#4E4E4E   gui=NONE
-hi! WildMenu                     guifg=NONE      guibg=#32867F   gui=NONE
+hi! Visual                       guifg=#222222   guibg=#4E4E4E   gui=NONE
+hi! VisualNOS                    guifg=#222222   guibg=#4E4E4E   gui=NONE
+hi! WarningMsg                   guifg=#222222   guibg=#4E4E4E   gui=NONE
+hi! WildMenu                     guifg=#222222   guibg=#32867F   gui=NONE
 
 " Syntax highlighting
 " ----------------------------------------------------------------------
