@@ -6,5 +6,5 @@ If you have [Pathogen](http://www.vim.org/scripts/script.php?script_id=2332) ins
     cd ~/.vim/bundle
     git clone git@github.com:Fl4t/warez-colorscheme.git
 ## Screenshot
-<img src="https://github.com/Fl4t/warez-colorscheme/blob/master/picture.png" alt="picture" title="" />
+Click on picture.png and raw it ! ;)
    
