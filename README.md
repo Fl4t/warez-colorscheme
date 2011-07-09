@@ -8,4 +8,4 @@ If you have [Pathogen](http://www.vim.org/scripts/script.php?script_id=2332) ins
     git clone git@github.com:Fl4t/warez-colorscheme.git
 
 ## Screenshot
-![](picture.png)
+Click on picture.png ;)
