@@ -30,7 +30,7 @@ let g:color_name="warez"
 if version >= 700
   hi! CursorLine                 guifg=NONE      guibg=#1E1E1E   gui=NONE
   hi! CursorColumn               guifg=NONE      guibg=#1E1E1E   gui=NONE
-  hi! MatchParen                 guifg=NONE      guibg=#afafd4   gui=NONE
+  hi! MatchParen                 guifg=#afafd4   guibg=#735B9C   gui=NONE
   hi! Pmenu                      guifg=NONE      guibg=#1E1E1E   gui=NONE
   hi! PmenuSel                   guifg=NONE      guibg=#348686   gui=NONE
 endif
