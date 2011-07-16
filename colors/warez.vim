@@ -55,7 +55,7 @@ hi! IncSearch                    guifg=#191919   guibg=#9E5A77   gui=NONE
 hi! LineNr                       guifg=#4C4E4C   guibg=NONE      gui=NONE
 hi! ModeMsg                      guifg=#8E78B8   guibg=NONE      gui=NONE
 hi! MoreMsg                      guifg=#8E78B8   guibg=NONE      gui=NONE
-hi! NonText                      guifg=#407998   guibg=NONE      gui=NONE
+hi! NonText                      guifg=#4E4E4E   guibg=NONE      gui=NONE
 hi! Normal                       guifg=#A5BBB5   guibg=#191919   gui=NONE
 hi! Question                     guifg=#CBCBCB   guibg=NONE      gui=NONE
 hi! Search                       guifg=#191919   guibg=#9E5A77   gui=NONE
