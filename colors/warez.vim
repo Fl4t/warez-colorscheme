@@ -33,6 +33,9 @@ if version >= 700
   hi! MatchParen                 guifg=#afafd4   guibg=#735B9C   gui=NONE
   hi! Pmenu                      guifg=NONE      guibg=#1E1E1E   gui=NONE
   hi! PmenuSel                   guifg=NONE      guibg=#348686   gui=NONE
+  hi! TabLine                    guifg=#191919   guibg=#424242   gui=NONE
+  hi! TabLineFill                guifg=#191919   guibg=#424242   gui=NONE
+  hi! TabLineSel                 guifg=#A5BBB5   guibg=#424242   gui=NONE
 endif
 
 " General Group Colours
