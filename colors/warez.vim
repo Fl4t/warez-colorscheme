@@ -47,7 +47,7 @@ hi! DiffAdd                      guifg=#191919   guibg=#348686   gui=NONE
 hi! DiffChange                   guifg=#191919   guibg=#735B9C   gui=NONE
 hi! DiffDelete                   guifg=#191919   guibg=#9E5A77   gui=NONE
 hi! DiffText                     guifg=#191919   guibg=#42799D   gui=NONE
-hi! ErrorMsg                     guifg=#9E5A77   guibg=#AFAFD4   gui=NONE
+hi! ErrorMsg                     guifg=#9E5A77   guibg=#191919   gui=NONE
 hi! VertSplit                    guifg=NONE      guibg=#424242   gui=NONE
 hi! Folded                       guifg=#42424B   guibg=#42799D   gui=NONE
 hi! FoldColumn                   guifg=#42424B   guibg=#42799D   gui=NONE
