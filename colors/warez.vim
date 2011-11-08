@@ -28,10 +28,10 @@ let g:color_name="warez"
 " Vim >= 7.0 Colours
 " ----------------------------------------------------------------------
 if version >= 700
-  hi! CursorLine                 guifg=NONE      guibg=#1E1E1E   gui=NONE
-  hi! CursorColumn               guifg=NONE      guibg=#1E1E1E   gui=NONE
+  hi! CursorLine                 guifg=NONE      guibg=#191919   gui=NONE
+  hi! CursorColumn               guifg=NONE      guibg=#191919   gui=NONE
   hi! MatchParen                 guifg=#afafd4   guibg=#735B9C   gui=NONE
-  hi! Pmenu                      guifg=NONE      guibg=#1E1E1E   gui=NONE
+  hi! Pmenu                      guifg=NONE      guibg=#191919   gui=NONE
   hi! PmenuSel                   guifg=NONE      guibg=#348686   gui=NONE
   hi! TabLine                    guifg=#191919   guibg=#424242   gui=NONE
   hi! TabLineFill                guifg=#191919   guibg=#424242   gui=NONE
@@ -49,8 +49,8 @@ hi! DiffDelete                   guifg=#191919   guibg=#9E5A77   gui=NONE
 hi! DiffText                     guifg=#191919   guibg=#42799D   gui=NONE
 hi! ErrorMsg                     guifg=#9E5A77   guibg=#191919   gui=NONE
 hi! VertSplit                    guifg=NONE      guibg=#424242   gui=NONE
-hi! Folded                       guifg=#42424B   guibg=#42799D   gui=NONE
-hi! FoldColumn                   guifg=#42424B   guibg=#42799D   gui=NONE
+hi! Folded                       guifg=#A5BBB5   guibg=#191919   gui=NONE
+hi! FoldColumn                   guifg=#A5BBB5   guibg=#191919   gui=NONE
 hi! IncSearch                    guifg=#191919   guibg=#9E5A77   gui=NONE
 hi! LineNr                       guifg=#4C4E4C   guibg=NONE      gui=NONE
 hi! ModeMsg                      guifg=#8E78B8   guibg=NONE      gui=NONE
